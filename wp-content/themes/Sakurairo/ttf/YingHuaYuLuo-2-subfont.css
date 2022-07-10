@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "YingHuaYuLuo-2-subfont";
+  src: url("YingHuaYuLuo-2-subfont.woff2") format("woff2"),
+       url("YingHuaYuLuo-2-subfont.woff") format("woff"),
+       url("YingHuaYuLuo-2-subfont.ttf") format("truetype"),
+       url("YingHuaYuLuo-2-subfont.eot") format("embedded-opentype"),
+       url("YingHuaYuLuo-2-subfont.svg") format("svg"),
+       url("YingHuaYuLuo-2-subfont.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}

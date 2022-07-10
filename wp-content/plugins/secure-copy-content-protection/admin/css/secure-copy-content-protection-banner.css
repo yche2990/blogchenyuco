@@ -1,0 +1,435 @@
+/* Sale Banner | Start */
+
+#ays-sccp-dicount-month-main #ays-sccp-dismiss-buttons-content{
+    display: flex;
+    justify-content: center;
+}
+
+#ays-sccp-dicount-month-main #ays-sccp-dismiss-buttons-content .ays-button{
+    margin: 0;
+    font-size: 13px;
+}
+
+#ays-sccp-dicount-month-main #ays-sccp-dismiss-buttons-content{
+    display: block;
+}
+
+#ays-sccp-dicount-month-main .ays-sccp-sale-banner-link img {
+    width: 80px;
+}
+
+div#ays-sccp-dicount-month-main {
+    border: 1px solid #E5E5E5;
+    background: #FFF;
+    border-radius: 6px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 5%);
+    position: relative;
+    z-index: 1;
+    min-height: 80px;
+}
+div#ays-sccp-dicount-month-main.ays_pb_dicount_info button {
+    display: flex;
+    align-items: center;
+}
+
+div#ays-sccp-dicount-month-main div#ays-sccp-dicount-month a.ays-sccp-sale-banner-link:focus {
+    outline: none;
+    box-shadow: 0;
+}
+
+div#ays-sccp-dicount-month-main .btn-link {
+    font-weight: 400;
+    color: #fff;
+    background-color: transparent;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem
+}
+
+div#ays-sccp-dicount-month-main.ays_sccp_dicount_info {
+    /*background-image: linear-gradient(45deg, #dbdbdb, transparent);*/
+
+    /*background-image: url(../images/spring_bundle_logo_background_2.svg);*/
+    background-image: url(../images/mega_bundle_logo_background.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-color: #191919;*/
+}
+
+#ays-sccp-dicount-month-main .ays_sccp_dicount_month {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#ays-sccp-dicount-month-main .ays-sccp-sale-banner-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+#ays-sccp-dicount-month-main .ays-sccp-dicount-wrap-box {
+    font-size:14px;
+    /*padding:12px;*/
+    text-align: center;
+    width: 50%;
+    color: #009688;
+}
+
+#ays-sccp-dicount-month-main .ays-sccp-dicount-wrap-box strong {
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0.80px;
+}
+
+#ays-sccp-dicount-month-main .ays-button{
+    /* margin: 0 auto !important; */
+
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    padding: 5px 35px;
+    background-color: #5561a3;
+    border-color: #5561a3;
+    font-size: 16px;
+    border-radius: 41px 150px 128px 140px / 75px 53px 38px 42px;
+}
+
+div#ays-sccp-dicount-month-main.ays_sccp_dicount_info button {
+    color: #5561a3;
+}
+
+#ays-sccp-dicount-month-main #ays-sccp-button-top-buy-now:hover {
+    background-color: #5561a3;
+    border-color: #5561a3;
+}
+
+#ays-sccp-dicount-month-main .ays-sccp-dicount-wrap-color {
+    color: #5561a3;
+}
+
+#ays-sccp-dicount-month-main .ays-sccp-dicount-wrap-text-decoration {
+    text-decoration: underline;
+}
+
+#ays-sccp-countdown-main-container .ays-sccp-countdown-container {
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#ays-sccp-countdown-main-container #ays-sccp-countdown-headline {
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    padding: 9px 0 4px 0;
+    line-height: 1.3;
+}
+
+#ays-sccp-countdown-main-container #ays-sccp-countdown {
+    font-weight: 600;
+}
+
+#ays-sccp-countdown-main-container ul {
+    margin: 0;
+}
+
+#ays-sccp-countdown-main-container li {
+    display: inline-block;
+    font-size: 14px;
+    list-style-type: none;
+    padding: 14px;
+    text-transform: uppercase;
+}
+
+#ays-sccp-countdown-main-container li span {
+    display: block;
+    font-size: 40px;
+    line-height: 1.4em;
+}
+
+#ays-sccp-countdown-main-container .emoji {
+    display: none;
+    padding: 1rem;
+}
+
+#ays-sccp-countdown-main-container .emoji span {
+    font-size: 50px;
+    padding: 0 .5rem;
+}
+
+@media all and (max-width: 768px) {
+    div#ays-sccp-dicount-month-main {
+        padding-right: 0;
+    }
+    div#ays-sccp-dicount-month-main .ays_sccp_dicount_month{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    div#ays-sccp-dicount-month-main img{
+        width: 100px;
+    }
+
+    div#ays-sccp-dicount-month-main .ays-sccp-dicount-wrap-box {
+        width: 100%;
+        /*text-align: center;*/
+    }
+
+    div#ays-sccp-dicount-month-main .ays-sccp-dicount-wrap-box > p{
+        margin: 0 !important;
+    }
+    
+    #ays-sccp-countdown-main-container #ays-sccp-countdown-headline {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    #ays-sccp-countdown-main-container ul {
+        font-weight: 500;
+        color: #007936;
+    }
+
+    #ays-sccp-countdown-main-container li span {
+        font-size: 20px;
+    }
+
+    #ays-sccp-dicount-month-main .ays-button{
+        margin: 20px auto !important;
+    }
+
+    div#ays-sccp-dicount-month-main.ays_sccp_dicount_info.notice {
+        /*background-image: url(../images/spring_bundle_logo_background_responsive.svg);*/
+        background-image: url(../images/mega_bundle_logo_background_responsive.jpg);
+        /* background-size: auto; */
+    }
+
+    div#ays-sccp-dicount-month-main .ays-sccp-dicount-wrap-box strong {
+        font-weight: bolder;
+    }
+
+    div#ays-sccp-dicount-month-main #ays-sccp-button-top-buy-now {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .comparison .product img {
+        width: 70px;
+    }
+
+    .comparison a.price-buy{
+        padding: 5px 10px;
+        font-size: 11px;
+    }
+
+    #ays-sccp-dicount-month-main .ays-button{
+        font-size: 14px;
+        /* border-radius: 5px;
+        padding: 0 10px; */
+    }
+
+}
+
+/* Sale Banner | End */
+
+/* Sale buttom banner | Start */
+
+.ays-sccp-general-bundle-container {
+    padding: 20px 20px;
+    color: #000;
+    border-radius: 5px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(../images/winter-backround-bundle.png);
+    background-position: center center;
+    background-size: contain;
+    /* background-color: #191919; */
+    background-repeat: no-repeat;
+}
+
+.ays-sccp-general-bundle-container .ays-sccp-general-bundle-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ays-sccp-general-bundle-container .ays-sccp-general-bundle-row {
+    text-align: center;
+    margin-right: 95px;
+}
+
+.ays-sccp-general-bundle-container .ays-sccp-general-bundle-image-row img {
+    height: 130px;
+}
+
+.ays-sccp-general-bundle-container .ays-sccp-general-bundle-color {
+    color: #971821;
+}
+
+.ays-sccp-general-bundle-container .ays-sccp-general-bundle-text {
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.ays-sccp-general-bundle-container .ays-sccp-general-bundle-text > span{
+    color: #971821;
+}
+
+.ays-sccp-general-bundle-container .ays-sccp-general-bundle-sale-text {
+    font-size: 20px;
+    font-weight: 700;
+    color: #971821;
+}
+
+.ays-sccp-general-bundle-container .ays-sccp-general-bundle-row p {
+    font-weight: 500;
+    color: #fff;
+}
+
+.ays-sccp-general-bundle-container .ays-sccp-general-bundle-button {
+    background-color: #971821;
+    border-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    font-size: 16px;
+    color: #fff !important;
+    text-decoration: none !important;
+    text-shadow: none;
+    font-weight: 900;
+
+    line-height: 2.15384615;
+    min-height: 30px;
+    margin: 0;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.ays-sccp-general-bundle-container .ays-sccp-general-bundle-link-color {
+    color: #971821 !important;
+}
+
+.ays-sccp-general-bundle-container .ays-sccp-general-bundle-sale-text {
+    text-decoration: underline;
+}
+
+.ays-sccp-general-bundle-container .ays-sccp-general-bundle-button:hover {
+    background-color: #7d161d;
+    border-color: #971821;
+}
+
+@media screen and (max-width: 1400px) {
+    div.ays-sccp-general-bundle-container {
+        /*background-image: url(../images/spring_bundle_logo_background_responsive.svg);*/
+        background-position: top center;
+        background-size: cover;
+    }
+    div.ays-sccp-general-bundle-container .ays-sccp-general-bundle-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    div#ays-sccp-dicount-month-main .btn-link {
+        color: #007936 !important;
+        padding: 0 !important;
+    }
+
+    div.ays-sccp-general-bundle-row div.ays-sccp-general-bundle-text{
+        font-size: 20px;
+    }
+
+    div.ays-sccp-general-bundle-container .ays-sccp-general-bundle-button {
+        font-size: 13px;
+    }
+
+    div.ays-sccp-general-bundle-container .ays-sccp-general-bundle-sale-text {
+        font-size: 19px;
+    }
+
+    .ays-sccp-general-bundle-container .ays-sccp-general-bundle-row p{
+        margin: 0;
+    }
+
+    #ays-sccp-countdown-main-container form button:first-child{
+        margin-right: 20px !important;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .ays-sccp-general-bundle-container .ays-sccp-general-bundle-row {
+        margin: 10px 0;
+    }
+    
+    div.ays-sccp-general-bundle-container {
+        /*background-image: url(../images/spring_bundle_logo_background_responsive.svg);*/
+        background-image: url(../images/mega_bundle_logo_background_responsive.jpg);
+    }
+}
+
+/* Sale buttom banner | End */
+
+div#ays-sccp-dicount-month-main {
+    border: 1px solid #E5E5E5;
+    background: #FFF;
+    border-radius: 6px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 5%);
+    position: relative;
+    z-index: 1;
+    min-height: 80px;
+}
+
+div#ays-sccp-dicount-month-main div#ays-sccp-dicount-month a.ays-sccp-sale-banner-link:focus {
+    outline: none;
+    box-shadow: 0;
+}
+
+div#ays-sccp-dicount-month-main .btn-link {
+    font-weight: 400;
+    color: white;
+    background-color: transparent;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem
+}

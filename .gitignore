@@ -1,0 +1,22 @@
+# 排除文件目录
+*.php
+*.html
+*.xml
+*.po
+*.mo
+*.json
+*.txt
+*.htaccess
+*.zip
+*.gz
+*.phtml
+*.html.gz
+*.bmp
+*.md
+*.flac
+*.mp4
+wp-content/uploads/ShortpixelBackups/
+wp-content/themes/Sakurairo/manifest/
+!/wp-content/cache/
+!/wp-content/upload/  
+!wp-content/cache/
